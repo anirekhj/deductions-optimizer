@@ -273,7 +273,7 @@ def calculate_projection(base_pre, base_after, bonus_pre, include_ira):
     return pd.DataFrame(data), ytd, true_up
 
 # --- UI ---
-st.title(f"🇺🇸 Paycheck Optimizer Optimizer ({SEL_YEAR})")
+st.title(f"🇺🇸 Paycheck Optimizer ({SEL_YEAR})")
 
 c1, c2 = st.columns([1, 2])
 with c1:
